@@ -1,16 +1,77 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tanmay Patil — Frontend Software Engineer Portfolio
 
-Currently, two official plugins are available:
+A premium, highly interactive personal portfolio showcasing my academic journey, software development projects, technical skills, and professional certifications. Built completely from scratch with a strong emphasis on bleeding-edge UI/UX design, modular architecture, and advanced CSS animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</div>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Standout Features
 
-## Expanding the ESLint configuration
+- **Windows Terminal Chatbot**: A custom-built, interactive floating chatbot styled precisely like a native Windows 11 PowerShell terminal (`Consolas` typography, raw output formatting, and command-based quick questions).
+- **Interactive Swipe Navigation**: Education and Certification timelines are compressed into beautiful, touch-friendly swipeable cards with pagination controls.
+- **Advanced 3D Geometry**: Project cards, internship experiences, and education statistics integrate dynamic `perspective(1000px)` 3D transformations that pop out, tilt, and cast depth shadows when hovered.
+- **Dynamic Theming**: True multi-theme support including:
+  - **Dark Mode**: High-contrast, glowing accents with animated SVG backgrounds.
+  - **Light Mode**: Crisp, clean, and highly professional readability.
+  - **Paper Mode**: A warm, sepia-toned reading experience.
+- **Component Modularity**: Logically split architecture organizing monolithic data into granular React sub-components (`Hero`, `Experience`, `Education`, `Certifications`, `Hobbies`, `Footer`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technology Stack
+
+* **Core Structure**: React (via Vite)
+* **Styling Ecosystem**: Pure custom Vanilla CSS focusing heavily on CSS Variables for flawless Theme toggling.
+* **Iconography**: Lucide React
+* **Deployment**: Optimized for serverless edge-hosting natively.
+
+## 🚀 Local Development
+
+To run this portfolio locally on your machine and explore the source code:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Tanmay2109/Tanmay-Portfolio.git
+
+# 2. Navigate into the directory
+cd Tanmay-Portfolio
+
+# 3. Install NPM dependencies
+npm install
+
+# 4. Start the Vite development server
+npm run dev
+```
+
+## 📂 Project Structure Snapshot
+
+```text
+src/
+├── components/          # Reusable UI Blocks
+│   ├── About.jsx        # Biographical background
+│   ├── Certifications.jsx # Interactive NPTEL, Cousera sliders
+│   ├── Chatbot.jsx      # Animated Windows PowerShell bot
+│   ├── Education.jsx    # Swipeable academic timeline
+│   ├── Experience.jsx   # Professional Internship highlights
+│   ├── Footer.jsx       # Geometric social linkage
+│   ├── Hero.jsx         # Animated landing screen
+│   ├── Hobbies.jsx      # Extracurriculars and management roles
+│   ├── Navbar.jsx       # Sticky theme-switching header
+│   ├── Projects.jsx     # 3D tilted project gallery
+│   └── Skills.jsx       # Tech stack breakdown
+├── App.jsx              # Global application structure
+├── index.css            # Standardized styling & variables
+└── main.jsx             # React DOM injection point
+```
+
+## 📫 Connect with Me
+
+I am always open to discussing new opportunities, academic projects, and software engineering roles.
+
+- **LinkedIn:** [linkedin.com/in/tanmaypatil2109](https://linkedin.com/in/tanmaypatil2109)
+- **Email:** tanmaypatil2109@gmail.com
+
+<div align="center">
+  <p><i>Conceptualized, designed, and developed by Tanmay Patil.</i></p>
+</div>
