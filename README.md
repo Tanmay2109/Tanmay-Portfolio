@@ -1,8 +1,8 @@
 <div align="center">
 
-# Tanmay Patil — Frontend Software Engineer Portfolio
+# Tanmay Patil — Computer Science & Engineering (IoT) Portfolio
 
-A premium, highly interactive personal portfolio showcasing my academic journey, software development projects, technical skills, and professional certifications. Built completely from scratch with a strong emphasis on bleeding-edge UI/UX design, modular architecture, and advanced CSS animations.
+Welcome to the source code of my personal portfolio! This is a responsive, interactive web application built to showcase my academic journey, technical skills, software projects, and professional certifications. It is developed from scratch utilizing modern web technologies and component-driven architecture to deliver a clean and intuitive user experience.
 
 </div>
 
